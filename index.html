@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ganesh Mahendra Pathak</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- LEFT RAIL -->
+  <aside class="left-rail">
+    <div class="rail-name">GANESH</div>
+
+    <nav class="rail-links">
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="rail-social">
+      <a href="https://github.com/Pathak-Ganesh" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/ganeshpathak77" target="_blank">LinkedIn</a>
+    </div>
+  </aside>
+
+  <!-- TOP NAV -->
+  <nav class="top-nav">
+    <div class="nav-inner">
+      <div class="logo">GMP</div>
+      <div class="nav-links-main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1 class="big-heading">Hi, I'm Ganesh.</h1>
+      <h2 class="medium-heading">Business Analyst & CRM Specialist.</h2>
+      <p class="hero-desc">
+        I design CRM workflows, author BRDs/FSDs, define user stories, and lead SIT/UAT execution.
+      </p>
+      <a class="primary-btn" href="resume.pdf" target="_blank">Download Resume</a>
+    </div>
+  </header>
+
+  <main id="content">
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2 class="numbered-heading">About Me</h2>
+      <p>
+        I specialize in CRM implementation, process mapping, workflow automation, UAT/SIT coordination,
+        and business documentation such as BRDs, FSDs, and user stories. I also work with SQL, Power BI,
+        and Agile delivery.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="numbered-heading">Skills</h2>
+      <ul class="fancy-list">
+        <li>BRD · FSD · User Stories · Acceptance Criteria</li>
+        <li>Process Mapping & CRM Workflow Design</li>
+        <li>SIT / UAT Planning & Execution</li>
+        <li>Power BI · SQL · Jira · Confluence</li>
+      </ul>
+    </section>
+
+    <!-- EXPERIENCE (Accordion) -->
+    <section id="experience">
+      <h2 class="numbered-heading">Experience</h2>
+
+      <div class="accordion">
+
+        <!-- 1 -->
+        <div class="acc-item">
+          <button class="acc-btn">
+            Program Coordinator – CRM Solutions
+            <span class="acc-meta">Dr. D. Y. Patil Unitech Society · Oct 2024 – Present</span>
+          </button>
+          <div class="acc-content">
+            <ul class="fancy-list">
+              <li>Leading CRM implementation and workflow documentation.</li>
+              <li>Preparing BRDs, FSDs, and user stories.</li>
+              <li>Supporting SIT/UAT and coordinating with stakeholders.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="acc-item">
+          <button class="acc-btn">
+            Consultant – CRM (BFSI)
+            <span class="acc-meta">Acidaes Solutions · Apr 2024 – Sep 2024</span>
+          </button>
+          <div class="acc-content">
+            <ul class="fancy-list">
+              <li>Converted business needs into functional specifications.</li>
+              <li>Created user stories, test cases, and coordinated UAT.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="acc-item">
+          <button class="acc-btn">
+            Business Analyst
+            <span class="acc-meta">Aarav Global · Jan 2024 – Mar 2024</span>
+          </button>
+          <div class="acc-content">
+            <ul class="fancy-list">
+              <li>Owned backlog grooming and Agile documentation.</li>
+              <li>Facilitated requirement workshops and user validations.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="acc-item">
+          <button class="acc-btn">
+            Assistant Manager – BA & QA
+            <span class="acc-meta">Reliance Jio Platforms Ltd · Dec 2021 – Dec 2023</span>
+          </button>
+          <div class="acc-content">
+            <ul class="fancy-list">
+              <li>Led SIT/UAT execution and defect management.</li>
+              <li>Performed release validation and workflow testing.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="acc-item">
+          <button class="acc-btn">
+            Business Analyst
+            <span class="acc-meta">Arron Services · Aug 2017 – Nov 2020</span>
+          </button>
+          <div class="acc-content">
+            <ul class="fancy-list">
+              <li>Built analytical dashboards in Power BI.</li>
+              <li>Supported requirement analysis and client discussions.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="numbered-heading">Projects</h2>
+      <div class="project-card">CRM Implementation Automation</div>
+      <div class="project-card">Power BI KPI Dashboard Suite</div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="numbered-heading">Contact</h2>
+      <p>Email: <a href="mailto:Pathakganesh09@gmail.com">Pathakganesh09@gmail.com</a></p>
+    </section>
+
+  </main>
+
+  <footer class="footer">© Ganesh Mahendra Pathak</footer>
+
+  <!-- Accordion Script -->
+  <script>
+    const accButtons = document.querySelectorAll(".acc-btn");
+
+    accButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+
+        // close others
+        accButtons.forEach(other => {
+          if (other !== btn) {
+            other.classList.remove("active");
+            other.nextElementSibling.style.maxHeight = null;
+          }
+        });
+
+        // toggle selected
+        btn.classList.toggle("active");
+        const content = btn.nextElementSibling;
+
+        if (btn.classList.contains("active")) {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } else {
+          content.style.maxHeight = null;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
